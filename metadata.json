@@ -1,0 +1,6 @@
+{
+  "name": "Respondr",
+  "description": "Mobile-first survey platform for college students in Assam exploring campus t-shirts and merchandise culture.",
+  "requestFramePermissions": ["camera", "microphone"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
