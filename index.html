@@ -12,6 +12,16 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Bengali:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <script>
+      (function() {
+        if (window.location.hostname.indexOf('github.io') !== -1) {
+          var p = window.location.pathname;
+          if (p && !p.endsWith('/') && !p.includes('.')) {
+            window.location.replace(p + '/' + window.location.search + window.location.hash);
+          }
+        }
+      })();
+    </script>
   </head>
   <body class="bg-[#FFFBF5] text-slate-900 antialiased selection:bg-[#E0A526]/30 selection:text-[#166534]">
     <div id="root"></div>

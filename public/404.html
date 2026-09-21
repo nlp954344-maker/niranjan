@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>Respondr — College T-Shirt &amp; Merchandise Survey</title>
+    <script>
+      // If 404 is hit on GitHub Pages subfolder, redirect to the app root
+      (function() {
+        var path = window.location.pathname;
+        if (path.includes('/docs/')) {
+          var docsRoot = path.substring(0, path.indexOf('/docs/') + 6);
+          window.location.replace(docsRoot);
+        } else {
+          var segments = path.split('/').filter(Boolean);
+          if (segments.length > 0) {
+            window.location.replace('/' + segments[0] + '/');
+          } else {
+            window.location.replace('/');
+          }
+        }
+      })();
+    </script>
+  </head>
+  <body class="bg-[#FFFBF5] text-slate-900">
+    <p style="text-align:center; padding: 40px; font-family: sans-serif;">Loading Respondr...</p>
+  </body>
+</html>
